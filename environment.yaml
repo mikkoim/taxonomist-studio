@@ -1,0 +1,52 @@
+name: taxonomist-studio
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+
+  - pywin32
+
+  # DS basics
+  - numpy
+  - scipy
+  - pandas
+  - pillow
+  - matplotlib
+  - seaborn
+  - tqdm
+  - scikit-learn
+  - scikit-image
+  - plotly
+
+  # torch
+  - pytorch
+  - torchvision
+  - cpuonly
+  
+  - streamlit>=1.21
+  
+  - timm
+
+  # ipython + notebooks
+  - ipython
+  - notebook
+  - jupyterlab
+  - ipywidgets
+  - ipykernel
+  - ruff
+  - openpyxl
+  - numba
+
+  - flask
+
+  - pip
+  - pip:
+    - flask-cors
+    - python-dotenv
+    - pyautogui
+    - pysimplegui<5.0
+    - label-studio
+    - pycocotools
+    - opencv-python
