@@ -7,12 +7,12 @@ Taxonomist Studio is a visualization and analysis application and a library that
 
 
 # Features
-- Automatic pasting of metadata from excel to SRS
-- Automatic pasting of plate positions for MegaBarcoding workflows
 - Dataset analysis and visualization with a web interface
 - Similarity search for images
 - Outlier detection using feature vectors
 - Image segmentation and feature extraction
+- Automatic pasting of metadata from excel to SRS
+- Automatic pasting of plate positions for MegaBarcoding workflows
 
 [!Note] Taxonomist Studio is still under development and functionality might change at any time. Development and functionality ideas are welcome in GitHub Issues.
 
